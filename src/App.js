@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import elephant from "./images/elephant.jpeg";
+
+const imageData = ()=>{
+  let data = [
+    {
+      id:1,
+      img:elephant
+    },
+    {
+      id:2,
+      img:elephant
+    },
+    {
+      id:3,
+      img:elephant
+    },
+    {
+      id:4,
+      img:elephant
+    }
+  ]
+  return data;
+}
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // code here
 }
 
 export default App;

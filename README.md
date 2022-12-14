@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kalvium Lab | REACT - Think with React
 
-## Available Scripts
+## Learning Goals
 
-In the project directory, you can run:
+In this exercise, the goal is to understand and experiment around JSX - using both class and functional components. 
 
-### `npm start`
+## Getting started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Fork this repo
+2. Clone this repo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Whenever you create a first significant change, you should make your first commit.
 
-### `npm test`
+3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the end of this document, you will find guidelines on how to submit the exercise.
 
-### `npm run build`
+### Introduction
+The task is to create a webpage which looks like the image below:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/lab-react-jsx.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Steps to follow:
+1. Clone this repository.
+2. On your terminal go inside `lab-react-jsx-boilerplate` directory and use the following command:
+   `npm install i`
+   This command install's all the packages to your system that this project is using.
+3. Few lines of code is already written for you -- in the following files:
+    1. `App.js` : In this file, you need to complete the task by using functional component. 
+        In this file, `imageData` is a function which stores the an array of objects -> which contains two fields: id and image.
+        **NOTE** note how images are being imported. 
+        Your task is to complete the `App function` - and get an output as shown in the above image.
+    
+    2. `AppClass.js`: Before doing anything --> go to `index.js` file and check which component is being
+        rendered. For now, `<App/>` is being rendered, we need to change this to `<AppClass/>`. Import this 
+        component and render `AppClass`, so that any changes made in `AppClass` file, are displayed on the web now.
+        Similar to 1st case, `imageData` is defined for you, you just need to complete the class component `AppClass` - and get an output as shown in the above image.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Once you are able to display the images on the browser, then you can style it in `App.css` file. If you
+   observe, in both the files, `App.css` is the only style sheet which is being imported, so any styles added 
+   to this file, will be reflected for both the cases.
