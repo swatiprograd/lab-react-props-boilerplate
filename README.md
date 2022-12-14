@@ -1,6 +1,6 @@
 ![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
 
-# Kalvium Lab | REACT - Think with React
+# Kalvium Lab 
 
 ## Learning Goals
 
@@ -41,3 +41,5 @@ The task is to create a webpage which looks like the image below:
 4. Once you are able to display the images on the browser, then you can style it in `App.css` file. If you
    observe, in both the files, `App.css` is the only style sheet which is being imported, so any styles added 
    to this file, will be reflected for both the cases.
+
+Happy Coding Kalvium ❤️!
