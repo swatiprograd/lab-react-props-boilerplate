@@ -1,1 +1,20 @@
 /* add your styles here */
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.column img{
+    margin-top: 12px;
+    width:100%;
+  }
